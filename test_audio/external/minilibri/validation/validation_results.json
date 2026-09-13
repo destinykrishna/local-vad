@@ -1,0 +1,698 @@
+{
+  "aggregate": {
+    "total_files": 30,
+    "detected_files": 30,
+    "detection_success_rate_pct": 100.0,
+    "total_audio_duration_s": 232.89,
+    "total_proc_time_s": 0.9718,
+    "aggregate_rtf": 0.00417,
+    "mean_coverage_pct": 89.7,
+    "median_coverage_pct": 91.2,
+    "min_coverage_pct": 73.6,
+    "max_coverage_pct": 100.3,
+    "avg_segment_count": 1.63,
+    "fragmented_utterances_count": 10,
+    "fragmented_utterances_pct": 33.3,
+    "avg_leading_silence_s": 0.407,
+    "avg_trailing_silence_s": 0.089,
+    "avg_proc_time_ms": 32.4
+  },
+  "results": [
+    {
+      "file_name": "1272-135031-0000.wav",
+      "duration_s": 10.885,
+      "detected_speech_s": 10.26,
+      "coverage_pct": 94.3,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.42,
+      "trailing_silence_s": 0.205,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.42,
+          "end": 10.68
+        }
+      ],
+      "proc_time_ms": 57.94,
+      "rtf": 0.00532,
+      "plot_file": "test_audio/external/minilibri/validation\\plots\\1272-135031-0000_vad.png"
+    },
+    {
+      "file_name": "1462-170142-0000.wav",
+      "duration_s": 4.715,
+      "detected_speech_s": 4.18,
+      "coverage_pct": 88.7,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.48,
+      "trailing_silence_s": 0.055,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.48,
+          "end": 4.66
+        }
+      ],
+      "proc_time_ms": 19.01,
+      "rtf": 0.00403,
+      "plot_file": null
+    },
+    {
+      "file_name": "174-168635-0000.wav",
+      "duration_s": 4.53,
+      "detected_speech_s": 4.04,
+      "coverage_pct": 89.2,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.5,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.5,
+          "end": 4.54
+        }
+      ],
+      "proc_time_ms": 17.54,
+      "rtf": 0.00387,
+      "plot_file": null
+    },
+    {
+      "file_name": "1988-147956-0000.wav",
+      "duration_s": 14.95,
+      "detected_speech_s": 14.96,
+      "coverage_pct": 100.1,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.0,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 14.96
+        }
+      ],
+      "proc_time_ms": 67.91,
+      "rtf": 0.00454,
+      "plot_file": null
+    },
+    {
+      "file_name": "1993-147964-0000.wav",
+      "duration_s": 8.42,
+      "detected_speech_s": 7.7,
+      "coverage_pct": 91.4,
+      "speech_detected": true,
+      "segment_count": 2,
+      "leading_silence_s": 0.38,
+      "trailing_silence_s": 0.24,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.38,
+          "end": 6.72
+        },
+        {
+          "start": 6.82,
+          "end": 8.18
+        }
+      ],
+      "proc_time_ms": 30.99,
+      "rtf": 0.00368,
+      "plot_file": "test_audio/external/minilibri/validation\\plots\\1993-147964-0000_vad.png"
+    },
+    {
+      "file_name": "2035-147960-0000.wav",
+      "duration_s": 9.02,
+      "detected_speech_s": 8.2,
+      "coverage_pct": 90.9,
+      "speech_detected": true,
+      "segment_count": 2,
+      "leading_silence_s": 0.28,
+      "trailing_silence_s": 0.22,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.28,
+          "end": 4.48
+        },
+        {
+          "start": 4.8,
+          "end": 8.8
+        }
+      ],
+      "proc_time_ms": 42.92,
+      "rtf": 0.00476,
+      "plot_file": null
+    },
+    {
+      "file_name": "2412-153948-0000.wav",
+      "duration_s": 11.66,
+      "detected_speech_s": 11.22,
+      "coverage_pct": 96.2,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.44,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.44,
+          "end": 11.66
+        }
+      ],
+      "proc_time_ms": 42.35,
+      "rtf": 0.00363,
+      "plot_file": null
+    },
+    {
+      "file_name": "2428-83699-0000.wav",
+      "duration_s": 13.305,
+      "detected_speech_s": 11.86,
+      "coverage_pct": 89.1,
+      "speech_detected": true,
+      "segment_count": 4,
+      "leading_silence_s": 0.52,
+      "trailing_silence_s": 0.025,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.52,
+          "end": 3.62
+        },
+        {
+          "start": 4.2,
+          "end": 7.04
+        },
+        {
+          "start": 7.12,
+          "end": 9.22
+        },
+        {
+          "start": 9.46,
+          "end": 13.28
+        }
+      ],
+      "proc_time_ms": 47.04,
+      "rtf": 0.00354,
+      "plot_file": null
+    },
+    {
+      "file_name": "251-118436-0000.wav",
+      "duration_s": 6.26,
+      "detected_speech_s": 5.36,
+      "coverage_pct": 85.6,
+      "speech_detected": true,
+      "segment_count": 3,
+      "leading_silence_s": 0.56,
+      "trailing_silence_s": 0.08,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.56,
+          "end": 1.72
+        },
+        {
+          "start": 1.82,
+          "end": 3.6
+        },
+        {
+          "start": 3.76,
+          "end": 6.18
+        }
+      ],
+      "proc_time_ms": 21.0,
+      "rtf": 0.00335,
+      "plot_file": null
+    },
+    {
+      "file_name": "2803-154320-0000.wav",
+      "duration_s": 11.48,
+      "detected_speech_s": 10.7,
+      "coverage_pct": 93.2,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.58,
+      "trailing_silence_s": 0.2,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.58,
+          "end": 11.28
+        }
+      ],
+      "proc_time_ms": 39.88,
+      "rtf": 0.00347,
+      "plot_file": null
+    },
+    {
+      "file_name": "3000-15664-0000.wav",
+      "duration_s": 3.13,
+      "detected_speech_s": 2.74,
+      "coverage_pct": 87.5,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.24,
+      "trailing_silence_s": 0.15,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.24,
+          "end": 2.98
+        }
+      ],
+      "proc_time_ms": 11.89,
+      "rtf": 0.0038,
+      "plot_file": "test_audio/external/minilibri/validation\\plots\\3000-15664-0000_vad.png"
+    },
+    {
+      "file_name": "3536-23268-0000.wav",
+      "duration_s": 19.89,
+      "detected_speech_s": 18.8,
+      "coverage_pct": 94.5,
+      "speech_detected": true,
+      "segment_count": 6,
+      "leading_silence_s": 0.52,
+      "trailing_silence_s": 0.01,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.52,
+          "end": 6.68
+        },
+        {
+          "start": 6.9,
+          "end": 9.02
+        },
+        {
+          "start": 9.08,
+          "end": 11.58
+        },
+        {
+          "start": 11.62,
+          "end": 13.94
+        },
+        {
+          "start": 14.08,
+          "end": 16.34
+        },
+        {
+          "start": 16.44,
+          "end": 19.88
+        }
+      ],
+      "proc_time_ms": 79.36,
+      "rtf": 0.00399,
+      "plot_file": null
+    },
+    {
+      "file_name": "3576-138058-0000.wav",
+      "duration_s": 14.14,
+      "detected_speech_s": 13.6,
+      "coverage_pct": 96.2,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.54,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.54,
+          "end": 14.14
+        }
+      ],
+      "proc_time_ms": 52.46,
+      "rtf": 0.00371,
+      "plot_file": null
+    },
+    {
+      "file_name": "3752-4944-0000.wav",
+      "duration_s": 3.335,
+      "detected_speech_s": 2.8,
+      "coverage_pct": 84.0,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.42,
+      "trailing_silence_s": 0.115,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.42,
+          "end": 3.22
+        }
+      ],
+      "proc_time_ms": 13.69,
+      "rtf": 0.0041,
+      "plot_file": null
+    },
+    {
+      "file_name": "5338-24640-0000.wav",
+      "duration_s": 3.45,
+      "detected_speech_s": 2.54,
+      "coverage_pct": 73.6,
+      "speech_detected": true,
+      "segment_count": 2,
+      "leading_silence_s": 0.42,
+      "trailing_silence_s": 0.23,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.42,
+          "end": 1.9
+        },
+        {
+          "start": 2.16,
+          "end": 3.22
+        }
+      ],
+      "proc_time_ms": 11.98,
+      "rtf": 0.00347,
+      "plot_file": null
+    },
+    {
+      "file_name": "5694-64038-0000.wav",
+      "duration_s": 2.595,
+      "detected_speech_s": 1.94,
+      "coverage_pct": 74.8,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.54,
+      "trailing_silence_s": 0.115,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.54,
+          "end": 2.48
+        }
+      ],
+      "proc_time_ms": 13.41,
+      "rtf": 0.00517,
+      "plot_file": null
+    },
+    {
+      "file_name": "5895-34615-0000.wav",
+      "duration_s": 3.335,
+      "detected_speech_s": 2.58,
+      "coverage_pct": 77.4,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.56,
+      "trailing_silence_s": 0.195,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.56,
+          "end": 3.14
+        }
+      ],
+      "proc_time_ms": 14.77,
+      "rtf": 0.00443,
+      "plot_file": null
+    },
+    {
+      "file_name": "6241-61943-0000.wav",
+      "duration_s": 6.95,
+      "detected_speech_s": 6.38,
+      "coverage_pct": 91.8,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.58,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.58,
+          "end": 6.96
+        }
+      ],
+      "proc_time_ms": 23.77,
+      "rtf": 0.00342,
+      "plot_file": null
+    },
+    {
+      "file_name": "6295-244435-0000.wav",
+      "duration_s": 3.105,
+      "detected_speech_s": 2.58,
+      "coverage_pct": 83.1,
+      "speech_detected": true,
+      "segment_count": 2,
+      "leading_silence_s": 0.22,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.22,
+          "end": 1.4
+        },
+        {
+          "start": 1.72,
+          "end": 3.12
+        }
+      ],
+      "proc_time_ms": 11.7,
+      "rtf": 0.00377,
+      "plot_file": "test_audio/external/minilibri/validation\\plots\\6295-244435-0000_vad.png"
+    },
+    {
+      "file_name": "6319-57405-0000.wav",
+      "duration_s": 7.295,
+      "detected_speech_s": 6.56,
+      "coverage_pct": 89.9,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.56,
+      "trailing_silence_s": 0.175,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.56,
+          "end": 7.12
+        }
+      ],
+      "proc_time_ms": 49.74,
+      "rtf": 0.00682,
+      "plot_file": null
+    },
+    {
+      "file_name": "777-126732-0000.wav",
+      "duration_s": 2.74,
+      "detected_speech_s": 2.16,
+      "coverage_pct": 78.8,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.58,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.58,
+          "end": 2.74
+        }
+      ],
+      "proc_time_ms": 14.3,
+      "rtf": 0.00522,
+      "plot_file": null
+    },
+    {
+      "file_name": "7850-281318-0000.wav",
+      "duration_s": 4.175,
+      "detected_speech_s": 3.84,
+      "coverage_pct": 92.0,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.34,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.34,
+          "end": 4.18
+        }
+      ],
+      "proc_time_ms": 23.6,
+      "rtf": 0.00565,
+      "plot_file": null
+    },
+    {
+      "file_name": "7976-110523-0000.wav",
+      "duration_s": 15.22,
+      "detected_speech_s": 13.94,
+      "coverage_pct": 91.6,
+      "speech_detected": true,
+      "segment_count": 4,
+      "leading_silence_s": 0.48,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.48,
+          "end": 5.34
+        },
+        {
+          "start": 5.42,
+          "end": 8.22
+        },
+        {
+          "start": 8.58,
+          "end": 13.3
+        },
+        {
+          "start": 13.66,
+          "end": 15.22
+        }
+      ],
+      "proc_time_ms": 79.66,
+      "rtf": 0.00523,
+      "plot_file": null
+    },
+    {
+      "file_name": "8297-275156-0000.wav",
+      "duration_s": 3.58,
+      "detected_speech_s": 3.18,
+      "coverage_pct": 88.8,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.4,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.4,
+          "end": 3.58
+        }
+      ],
+      "proc_time_ms": 15.19,
+      "rtf": 0.00424,
+      "plot_file": null
+    },
+    {
+      "file_name": "84-121550-0000.wav",
+      "duration_s": 8.435,
+      "detected_speech_s": 8.08,
+      "coverage_pct": 95.8,
+      "speech_detected": true,
+      "segment_count": 2,
+      "leading_silence_s": 0.26,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.26,
+          "end": 0.88
+        },
+        {
+          "start": 0.98,
+          "end": 8.44
+        }
+      ],
+      "proc_time_ms": 34.26,
+      "rtf": 0.00406,
+      "plot_file": "test_audio/external/minilibri/validation\\plots\\84-121550-0000_vad.png"
+    },
+    {
+      "file_name": "8842-304647-0000.wav",
+      "duration_s": 9.71,
+      "detected_speech_s": 9.14,
+      "coverage_pct": 94.1,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.38,
+      "trailing_silence_s": 0.19,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.38,
+          "end": 9.52
+        }
+      ],
+      "proc_time_ms": 33.42,
+      "rtf": 0.00344,
+      "plot_file": null
+    },
+    {
+      "file_name": "84-121550-0005.wav",
+      "duration_s": 8.715,
+      "detected_speech_s": 8.36,
+      "coverage_pct": 95.9,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.12,
+      "trailing_silence_s": 0.235,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.12,
+          "end": 8.48
+        }
+      ],
+      "proc_time_ms": 33.44,
+      "rtf": 0.00384,
+      "plot_file": null
+    },
+    {
+      "file_name": "1272-135031-0005.wav",
+      "duration_s": 4.625,
+      "detected_speech_s": 4.64,
+      "coverage_pct": 100.3,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.0,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.64
+        }
+      ],
+      "proc_time_ms": 17.48,
+      "rtf": 0.00378,
+      "plot_file": null
+    },
+    {
+      "file_name": "174-168635-0005.wav",
+      "duration_s": 7.93,
+      "detected_speech_s": 6.98,
+      "coverage_pct": 88.0,
+      "speech_detected": true,
+      "segment_count": 2,
+      "leading_silence_s": 0.54,
+      "trailing_silence_s": 0.23,
+      "is_fragmented": true,
+      "segments": [
+        {
+          "start": 0.54,
+          "end": 6.26
+        },
+        {
+          "start": 6.44,
+          "end": 7.7
+        }
+      ],
+      "proc_time_ms": 32.44,
+      "rtf": 0.00409,
+      "plot_file": null
+    },
+    {
+      "file_name": "251-118436-0005.wav",
+      "duration_s": 5.31,
+      "detected_speech_s": 4.98,
+      "coverage_pct": 93.8,
+      "speech_detected": true,
+      "segment_count": 1,
+      "leading_silence_s": 0.34,
+      "trailing_silence_s": 0.0,
+      "is_fragmented": false,
+      "segments": [
+        {
+          "start": 0.34,
+          "end": 5.32
+        }
+      ],
+      "proc_time_ms": 18.66,
+      "rtf": 0.00351,
+      "plot_file": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / ambient files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Audio recordings and large external datasets (do not commit audio binaries)
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+test_audio/external/minilibri/dev-clean-2/
+test_audio/external/minilibri/validation/wav/
+test_audio/converted/
+test_audio/*.wav

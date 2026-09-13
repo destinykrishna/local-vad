@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-vad"
+version = "0.1.0"
+description = "A lightweight, robust, deterministic local Voice Activity Detector (VAD) built from scratch using classical DSP."
+readme = "README.md"
+authors = [
+    { name = "VAD Engineering Team" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.8.0",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.5.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "matplotlib>=3.5.0",
+]
+
+[project.scripts]
+vad = "vad.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vad*"]
