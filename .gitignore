@@ -36,3 +36,8 @@ test_audio/external/minilibri/dev-clean-2/
 test_audio/external/minilibri/validation/wav/
 test_audio/converted/
 test_audio/*.wav
+
+# Local interview notes (not pushed to GitHub)
+interview.md
+INTERVIEW.md
+
